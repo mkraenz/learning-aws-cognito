@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^1.2.20",
+    "aws-amplify": "^4.3.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
