@@ -1,0 +1,15 @@
+projects:
+  learnamplify:
+    schemaPath: amplify/backend/api/learnamplify/build/schema.graphql
+    includes:
+      - src/graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/api.ts
+        docsFilePath: src/graphql
+extensions:
+  amplify:
+    version: 3
